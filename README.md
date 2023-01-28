@@ -4,6 +4,7 @@ A simple flutter application of a fitness app (FitnessJet) that shows the  appli
 **To Run the project app**
 - Clone the repository
 - Enusre you have all the important dependencies installed
+- cd into `fitness_app`
 - Run this command ` flutter run --no-sound-null-safety`
 
 ## Demo of the App
