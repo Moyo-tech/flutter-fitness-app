@@ -16,7 +16,7 @@ class NavBar extends StatelessWidget {
           ListTile(
 
             // add the content padding to the list tile
-            contentPadding: EdgeInsets.all(30),
+            contentPadding: EdgeInsets.all(40),
 
             // add the leading icon to the list tile, this makes the icon appear on the left side of the list tile before the text
             leading: Icon(Icons.home, color: Colors.white, size: 50),

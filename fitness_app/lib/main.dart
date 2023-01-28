@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './homepage.dart';
+// @dart=2.9
 
 void main() {
   runApp(new MyApp());
@@ -29,7 +30,6 @@ class _IntroPageState extends State<IntroPage> {
       body: Container(
         // the padding helps position the child elements in the container
         // the child elements in the container is the Elevated button
-
         alignment: Alignment.bottomCenter,
         padding: const EdgeInsets.all(64.0),
         decoration: BoxDecoration(
@@ -39,9 +39,9 @@ class _IntroPageState extends State<IntroPage> {
           ),
         ),
         child: ElevatedButton(
-            child: Text("NEXT", style:TextStyle(fontSize: 28)),
+            child: Text("PROCEED", style:TextStyle(fontSize: 24)),
             style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.black, minimumSize: Size(150, 50)),
+                backgroundColor:  Color(0xFF6495ed), minimumSize: Size(150, 50)),
           onPressed: () {
             Navigator.push(context, MaterialPageRoute(builder: (context) => MyHomePage()),);
             // go to another page

@@ -7,23 +7,24 @@ class Box extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(children: <Widget>[
+     // A container for the first workout option
       Container(
-        margin: EdgeInsets.symmetric(horizontal: 20.0),
-        padding: EdgeInsets.all(20.0),
-        height: 130,
-        width: 300,
+        margin: EdgeInsets.symmetric(horizontal: 20.0), // add margin horizontally
+        padding: EdgeInsets.all(20.0), // add padding to all sides
+        height: 130, // set a specific height
+        width: 300, // set a specific width
         decoration: BoxDecoration(
-            color: Color(0xFFCCCCCC),
-            borderRadius: BorderRadius.all(Radius.circular(10.0))),
+            color: Color(0xFFCCCCCC),  // set the background color
+            borderRadius: BorderRadius.all(Radius.circular(10.0))),// add border radius
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Icon(
-              FontAwesomeIcons.dumbbell,
+              FontAwesomeIcons.dumbbell, // use a icon from the font_awesome_flutter package
               size: 20,
               color: Colors.white,
             ),
-            SizedBox(height: 10),
+            SizedBox(height: 10),  // add a space
             Text("Exercise",
                 style: TextStyle(
                   fontSize: 18,
@@ -37,6 +38,9 @@ class Box extends StatelessWidget {
       SizedBox(
         height: 20,
       ),
+
+            // A container for the second workout option
+
       Container(
       margin: EdgeInsets.symmetric(horizontal: 20.0),
         padding: EdgeInsets.all(20.0),
@@ -67,6 +71,7 @@ class Box extends StatelessWidget {
       SizedBox(
         height: 20,
       ),
+      // A container for the third workout option
       Container(
           margin: EdgeInsets.symmetric(horizontal: 20.0),
         padding: EdgeInsets.all(20.0),
@@ -94,6 +99,8 @@ class Box extends StatelessWidget {
           ],
         ),
       ),
+
+      //A container for the text heading 
       Container(
         margin: EdgeInsets.symmetric(vertical: 20.0),
         child: Text("Select your workout for today",  style: TextStyle(

@@ -6,10 +6,11 @@ class Workout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.fromLTRB(30.0, 0, 30.0, 30.0),
+      margin: EdgeInsets.fromLTRB(30.0, 0, 30.0, 30.0),// adds margins to the container
                 child: ClipRRect(
-          borderRadius: BorderRadius.circular(20),
+          borderRadius: BorderRadius.circular(20),  // adds rounded corners to the container
         
+        //using the fittedbox for the workout option
         child: FittedBox(
           
           child: Row(
