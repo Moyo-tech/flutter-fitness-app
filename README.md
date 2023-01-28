@@ -4,7 +4,7 @@ A simple flutter application of a fitness app (FitnessJet) that shows the  appli
 Run the project by running this ` flutter run --no-sound-null-safety`
 
 ## Demo of the App
-- [Live Link of the Demo] - ()
+- [Live Link of the Demo]()
 
 ## Widgets Used in the Project
 - ConstrainedBox
